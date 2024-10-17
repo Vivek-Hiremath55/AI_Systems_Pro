@@ -28,3 +28,12 @@ In developing and deploying DermAI, we plan to take into account several critica
 - **Explainable AI**: Implementing techniques like SHAP for prediction transparency.
 - **Bias Mitigation**: Using libraries such as Fairlearn and AI360.
 
+
+# *IMPORTANT*
+
+**Couldn't load train image file and train-metadata**
+
+Below is the link to the drive folder containing the same
+
+[Link to dataset](https://drive.google.com/drive/folders/1cU5J57u6s7rb_7-Lv3lTnTtOjbZXfy1f?usp=drive_link)
+
