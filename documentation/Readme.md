@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Vivek-Hiremath55/AI_Systems_Pro">
-    <img src="images/gators.jpg" alt="Logo" width="150" height="150">
+    <img src="DermAI_logo.jpg" alt="Logo" width="150" height="150">
   </a>
 
   <h3 align="center">DermAI: AI Model for Early Skin Cancer Detection</h3>
@@ -52,15 +52,12 @@
 
 DermAI is an AI-driven solution aimed at supporting early detection of skin cancer using low-quality images captured with smartphones. The tool is designed to assist underserved populations with limited access to specialized dermatological care. By analyzing images and descriptions, DermAI can classify skin lesions as benign or malignant and provide insights to help triage patients who may need in-person consultations with dermatologists.
 
-You can include tables or images to summarize your results when and if appropriate.
-
 ### Built With
 
 * [Python](https://www.python.org/)
 * [TensorFlow](https://www.tensorflow.org/)
 * [Keras](https://keras.io/)
 * [OpenCV](https://opencv.org/)
-* [AWS SageMaker](https://aws.amazon.com/sagemaker/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -86,16 +83,19 @@ This project is designed to be executed in **Google Colab**, which provides an e
 
 ### Steps to Get Started on Google Colab
 
+#### Running in Google Colab:
 1. **Clone the Repository**  
    Open a new notebook in Google Colab and run the following command to clone the repository:  
    ```sh
    !git clone https://github.com/Vivek-Hiremath55/AI_Systems_Pro.git
-2. **Navigate to Cloned Directory**
-   ```sh
-   %cd AI_Systems_Pro
-3. **Install Additional Requirements**
-   ```sh
-   !pip install -r requirements.txt
+
+Make sure that the required libraries are installed (which is the default case). However, if there is a version mismatch, refer dependencies to figure out the correct versions and update them in the session.
+
+#### Running on local setup
+1. **Clone the Repository**
+2. **Make sure your environment has the dependencies installed**
+3. **Make changes to paths / environment variables in `ui_notebook.py`**
+4. **Run the notebook**
    
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -105,12 +105,29 @@ To use DermAI, follow these steps:
 * Modify the paths to `pre-trained models` wherever necessary.
 * Run the `ui_notebook.py` script in Colab with the paths to the uploaded files as arguments.
 * Upload the image of affected area & fill up the requested information.
-* 
+
+<!-- ROADMAP-->
+## Roadmap
+See the [open issues](https://github.com/Vivek-Hiremath55/AI_Systems_Pro/issues) for a list of proposed features (and known issues).
+
+<!--CONTRIBUTING-->
+## Contributing
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+* Fork the Project
+* Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+* Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+* Push to the Branch (`git push origin feature/AmazingFeature`)
+* Open a Pull Request
+
+<!--LICENSE-->
+## License
+No license requirements
 
 <!-- AUTHORS -->
 ## Authors
-Nikhil Reddy
-Vivek Hiremath
+* Nikhil Reddy
+* Vivek Hiremath
 
 <!--ACKNOWLEDGEMENT-->
 ## Acknowledgements
