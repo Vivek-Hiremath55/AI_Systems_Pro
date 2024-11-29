@@ -59,6 +59,32 @@ DermAI is an AI-driven solution aimed at supporting early detection of skin canc
 * [Keras](https://keras.io/)
 * [OpenCV](https://opencv.org/)
 
+## Repository File Structure
+
+Below is the file structure of the `DermAI` repository:
+
+```plaintext
+AI_Systems_Pro/
+├── deployment/             # Docker Files
+│   ├── Dockerfile          
+│   ├── docker-compose.yml
+├── documentation/          # Articulation of DermAI
+│   ├── AIS Project Template
+│   ├── DermAI_logo.jpg
+│   ├── Readme.md
+├── monitoring/             # Monitoring files
+│   ├── prometheus.yml
+├── src/                    # Pre-trained and custom models
+│   ├── data/
+│   │   ├── data.md         # Link to Google Drive containing datset
+│   ├── models/
+|   │   ├── model.md        # Link to Google Drive containing pre-trained models
+│   ├── requirements.txt
+│   ├── ui_notebook.py
+├── videos/
+│   ├── demo_video
+```
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -96,6 +122,12 @@ Make sure that the required libraries are installed (which is the default case).
 2. **Make sure your environment has the dependencies installed**
 3. **Make changes to paths / environment variables in `ui_notebook.py`**
 4. **Run the notebook**
+
+#### Deploying the project
+1. **Clone repository**
+2. **Make sure your environment has the dependencies installed**
+3. **Make changes to paths / environment variables in `ui_notebook.py`**
+4. **Build and run the docker container with the files from deployment**
    
 <!-- USAGE EXAMPLES -->
 ## Usage
