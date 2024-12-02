@@ -52,6 +52,10 @@
 
 DermAI is an AI-driven solution aimed at supporting early detection of skin cancer using low-quality images captured with smartphones. The tool is designed to assist underserved populations with limited access to specialized dermatological care. By analyzing images and descriptions, DermAI can classify skin lesions as benign or malignant and provide insights to help triage patients who may need in-person consultations with dermatologists.
 
+## One Stop Link
+
+Link for dataset, pretrained models and images [One Stop Link](https://drive.google.com/drive/folders/1cU5J57u6s7rb_7-Lv3lTnTtOjbZXfy1f)
+
 ### Built With
 
 * [Python](https://www.python.org/)
@@ -65,22 +69,25 @@ Below is the file structure of the `DermAI` repository:
 
 ```plaintext
 AI_Systems_Pro/
-├── deployment/             # Docker Files
+├── deployment/                          # Docker Files
 │   ├── Dockerfile          
 │   ├── docker-compose.yml
-├── documentation/          # Articulation of DermAI
+├── documentation/                       # Articulation of DermAI
 │   ├── AIS Project Template
 │   ├── DermAI_logo.jpg
 │   ├── Readme.md
-├── monitoring/             # Monitoring files
+├── monitoring/                          # Monitoring files
 │   ├── prometheus.yml
-├── src/                    # Pre-trained and custom models
+├── src/                                 # Pre-trained and custom models
 │   ├── data/
-│   │   ├── data.md         # Link to Google Drive containing datset
+│   │   ├── data.md                      # Link to Google Drive containing datset
 │   ├── models/
-|   │   ├── model.md        # Link to Google Drive containing pre-trained models
+|   │   ├── model.md                     # Link to Google Drive containing pre-trained models
 │   ├── requirements.txt
-│   ├── ui_notebook.py
+│   ├── Data_Classifier_Model.ipynb      # Model Building for Data based model
+│   ├── Image_classifier_model.ipynb     # Model Building for Image based Classifier
+│   ├── Inference_Notebook.ipynb         # Model Building for Combined based classifier
+│   ├── ui_notebook.py                   # Entry point script
 ├── videos/
 │   ├── demo_video
 ```
