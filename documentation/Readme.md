@@ -90,7 +90,8 @@ AI_Systems_Pro/
 │   ├── Inference_Notebook.ipynb         # Model Building for Combined based classifier
 │   ├── ui_notebook.py                   # Entry point script
 ├── videos/
-│   ├── demo_video
+│   ├── demo_video                       # Link to Google Drive containing DermAI Video Presentation
+│   ├── DermAI_Presentation              # Power Point Presentation of DermAI
 ```
 
 <!-- GETTING STARTED -->
