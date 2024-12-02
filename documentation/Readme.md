@@ -74,6 +74,7 @@ AI_Systems_Pro/
 │   ├── docker-compose.yml
 ├── documentation/                       # Articulation of DermAI
 │   ├── AIS Project Template
+│   ├── DermAI Final Report              # IEEE format report
 │   ├── DermAI_logo.jpg
 │   ├── Readme.md
 ├── monitoring/                          # Monitoring files
